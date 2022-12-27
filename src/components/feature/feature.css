@@ -1,0 +1,30 @@
+.gtr-feature {
+    padding: 1rem;
+}
+.gtr-feature-text {
+    margin: 0;
+    max-width: 100%;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 500;
+
+}
+
+
+
+.gtr-feature-title h1 {
+    max-width: 100%;
+    font-family: var(--font-family);
+    font-weight: 800;
+    margin: 0.5rem 0;
+
+}
+
+@media screen  and (max-width: 540px) {
+    .gtr-feature-title h1 {
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: normal;
+    }
+
+}

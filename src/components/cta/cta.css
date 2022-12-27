@@ -1,0 +1,62 @@
+.gtr-cta {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(89.97deg, #66fcf1 1.84%, #fcfbfc 102.67%);
+    border-radius: 5px;
+    margin-top: 2rem !important;
+}
+
+.gtr-cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.gtr-cta-content p {
+    color: #0B0C10;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.gtr-cta-content h3 {
+    font-size: 28px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-style: normal;
+    line-height: 36px;
+    max-width: 540px;
+    color: #0B0C10;
+}
+
+.gtr-cta-button button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background: #0B0C10;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0.3rem;
+}
+
+@media screen and (max-width: 540px) {
+    .gtr-cta {
+        flex-direction: column;
+    }
+    .gtr-cta-button {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+}

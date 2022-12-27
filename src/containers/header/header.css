@@ -1,0 +1,137 @@
+.gtr-header {
+    display: flex;
+
+}
+
+.gtr-header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+    width: 100%
+}
+
+.gtr-header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.4rem;
+}
+
+.gtr-header-content p {
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.gtr-header-content-input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+
+.gtr-header-content-input input {
+    background: var(--color-footer);
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    min-height: 50px;
+    flex: 2;
+    width: 100%;
+    padding-left: 15px;
+    border: none;
+
+}
+
+.gtr-header-image {
+    flex: 1;
+    display: flex;
+}
+
+.gtr-header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.gtr-header-content-input button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background: var(--color-button);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0.3rem;
+}
+
+.gtr-header-content-people {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 1rem
+}
+
+.gtr-header-content-people img {
+    height: 40px;
+}
+.gtr-header-content-people p {
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 820px) {
+    .gtr-header {
+        flex-direction: column;
+    }
+    .gtr-header-image {
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    p {
+        text-align: justify;
+    }
+    .gtr-header-image {
+        padding-top: 1rem;
+    }
+    .gtr-header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: normal;
+    }
+    .gtr-header-content p {
+        font-size: 16px;
+    }
+    .gtr-header-content-input button {
+        font-size: 16px;
+    }
+    .gtr-header-content-input input {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 import "./navbar.css"
 import {RiCloseLine, RiMenu3Line} from 'react-icons/ri'
 import logo from "../../assets/gtr_nav_logo.png"
-import {useState} from "react";
+import {useState} from "react"
 
 const Menu = () => {
     return (
