@@ -1,0 +1,123 @@
+.gtr-blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.gtr-blog-heading {
+    padding: 3rem 0;
+}
+
+.gtr-blog-heading h1 {
+    font-size: 52px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-style: normal;
+    line-height: 62px;
+    max-width: 540px;
+}
+
+.gtr-blog-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.groupA {
+    flex: 0.3;
+    margin-right: 1rem;
+}
+
+.groupB {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-gap: 1rem;
+    flex: 0.7
+}
+
+.blog-card-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: var(--color-footer);
+}
+
+.blog-card-image {
+    height: 100%;
+    width: 100%;
+    flex:1
+}
+
+.blog-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.blog-card-content {
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.blog-card-content-button {
+    margin-top: 1rem;
+}
+
+.blog-card-content-button button {
+    border: none;
+    padding: 0.5rem;
+    background: none;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.blog-card-content-title p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--color-text);
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.blog-card-content-title h3 {
+    font-size: 34px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-style: normal;
+    line-height: 45px;
+    max-width: 540px;
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 820px) {
+    .gtr-blog-content {
+        flex-direction: column;
+    }
+
+    .groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .groupA {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
